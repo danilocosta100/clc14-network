@@ -8,7 +8,7 @@ resource "aws_vpc" "minha_vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = var.vpc_name
+    Name = var.vpc_name 
   }
 }
 
